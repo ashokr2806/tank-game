@@ -420,6 +420,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 6231117732326481102}
+  children:
+  - {fileID: 2142214706093607071}
+  - {fileID: 2142214706093607065}
+  - {fileID: 2142214706093607063}
+  - {fileID: 2142214706093607069}
 --- !u!54 &6231117732326481102
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -431,7 +436,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
